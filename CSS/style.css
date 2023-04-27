@@ -1,0 +1,27 @@
+body {
+    font-family:"Inconsolata";
+    background-color: #21201F;
+    color: #6E5A46
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Raleway";
+}
+
+header {
+    text-align: center;
+}
+
+#hero {
+    text-align: center;
+    border: 2px solid
+
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio {
+    text-align:center;
+}
