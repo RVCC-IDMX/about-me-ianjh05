@@ -35,16 +35,26 @@ header {
 
 /*gallery section*/
 #gallery {
-    border: 2px solid
+    border: 2px solid;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#gallery hr {
+    display:none;
+}
+
+#gallery h2 {
+    grid-column: 1/4;
 }
 
 #gallery img {
-    max-width: 50%;
+    max-width: 100%;
 }
 
 #gallery figure {
     text-align: center;
-    display:grid;
+    display:block;
     grid-template-columns: 2fr 1fr;
 }
 
@@ -52,7 +62,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 15rem;
 }
 
 
@@ -63,6 +72,8 @@ header {
 
 #lit div {
     padding:1rem;
-    max-width:40rem;
+    max-width:100rem;
     margin: 0 auto;
+    columns:20rem;
+
 }
