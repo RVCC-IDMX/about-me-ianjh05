@@ -13,6 +13,7 @@ header {
     text-align: center;
 }
 
+/*hero section*/
 #hero {
     text-align: center;
     border: 2px solid
@@ -23,10 +24,36 @@ header {
     width: 300px;
 }
 
+/*bio section*/
 #bio {
     text-align:center;
 }
 
 #hobbies {
     text-align:center;
+}
+
+/*gallery section*/
+#gallery {
+    border: 2px solid
+}
+
+#gallery img {
+    max-width: 50%;
+    
+}
+
+#gallery figure {
+    text-align: center;
+}
+
+/*lit section*/
+#lit {
+    margin-bottom:1rem;
+}
+
+#lit div {
+    padding:1rem;
+    max-width:40rem;
+    margin: 0 auto;
 }
