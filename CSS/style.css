@@ -40,12 +40,21 @@ header {
 
 #gallery img {
     max-width: 50%;
-    
 }
 
 #gallery figure {
     text-align: center;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
 }
+
+#gallery figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15rem;
+}
+
 
 /*lit section*/
 #lit {
