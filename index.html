@@ -16,8 +16,20 @@
 
     <header>
         <!--header shows logo and page title (dont confuse with the head tag)-->
-        <img src="/img/logo-96X96.svg" alt="blue bird">
-        <h1>Web Dev I</h1>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/img/logo-96X96.svg" alt="blue bird">
+                <h1>Web Dev I</h1>
+            </div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#lit">Blog</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <main>
@@ -164,13 +176,13 @@
 
                         <label for="email">Email (required)</label>
                         <input type="email" id="email" name="email" required>
-                        
+
                         <label for="phone">Phone (optional)</label>
                         <input type="tel" id="phone" name="phone">
 
                         <label for="phonetype">Phone Type (optional)</label>
                         <select id="phonetype" name="phonetype">
-                            <option value=""selected>Select phone type</option>
+                            <option value="" selected>Select phone type</option>
                             <option value="Mobile">Mobile</option>
                             <option value="Work">Work</option>
                             <option value="Home">Home</option>
