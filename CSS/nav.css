@@ -48,7 +48,7 @@ main {
 .navbar-links li {
     list-style: none;
     display:block;
-    padding:0.4em 0;
+    padding:0.5em 0;
 }
 
 
@@ -58,11 +58,20 @@ main {
 */
 .navbar-links a {
     color:#21201F;
-    background-attachment: #73593F;
+    background-color: #73593F;
     font-size: 1.3rem;
     padding:1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
+    display: inline-block;
+}
+
+.navbar-links a:hover, .navbar-links a:focus {
+    color:#73593F;
+    background-color:#21201F;
+    border-radius:10px;
+    outline: none;
+
 }
 
 
