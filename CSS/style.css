@@ -67,7 +67,8 @@ header {
     columns:20rem;
 }
 
-@media screen and (min-width: 60em) {
+/*tablet size*/
+@media screen and (min-width:60em) {
 figure {
     display:grid;
     grid-template-columns:2fr 1fr;
@@ -78,5 +79,29 @@ figcaption {
     align-items:center;
     font-size:2rem;
 }
+figure img {
+    width:100%;
+}
 
+#lit div {
+    max-width:100%;
+    columns:20rem;
+}
+}
+
+/*large screen size*/
+@media screen and (min-width:100em) {
+    #gallery {
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+    hr {
+        display:none;
+    }
+    #gallery h2 {
+        grid-column:1/-1;
+    }
+    figure {
+        display:block;
+    }
 }
