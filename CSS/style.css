@@ -35,7 +35,7 @@ header {
 
 /*gallery section*/
 #gallery {
-    border: 2px solid;
+    border: 2px solid #73593F;
     margin-bottom:2rem;
 }
 
@@ -76,6 +76,47 @@ header {
 /*contact form*/
 #formElements {
     display:grid;
+    row-gap:.5em;
+}
+
+#contact {
+    padding:1rem;
+    max-width:600px;
+    margin:2rem auto;
+}
+
+fieldset {
+    border:2px solid #73593F;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+legend {
+    background-color: #73593F;
+    color: #21201F
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding:.5em;
+    font-size:1rem;
+}
+
+#contact ul {
+    list-style:none;
+    padding:0px;
+}
+
+#contact li {
+    margin:1rem;
+}
+
+#contact button {
+    background-color:#73593F;
+    color:#21201F;
+    border: 1px solid#73593F;
+    max-width:400px;
+    width:50%;
+    justify-self:center;
 }
 
 /*footer*/
