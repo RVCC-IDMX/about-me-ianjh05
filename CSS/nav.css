@@ -1,0 +1,46 @@
+/* make scrolling smooth */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* 
+ get rid of padding & sizing on body so
+ header is at top
+*/
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* add some padding back to rest of page */
+main {
+    padding:2vw;
+}
+
+/* navbar */
+
+
+
+/* logo */
+
+
+
+/* navigation list */
+
+
+/*  
+ style all a tags in header 
+ and then on hover
+*/
+
+
+
+
+
+/* 
+media query for non-mobile nav bar
+min-width set to width of nav elements 
+such that no text wraps 
+*/
