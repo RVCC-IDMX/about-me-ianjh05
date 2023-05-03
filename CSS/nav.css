@@ -45,13 +45,25 @@ main {
 
 
 /* navigation list */
+.navbar-links li {
+    list-style: none;
+    display:block;
+    padding:0.4em 0;
+}
 
 
 /*  
  style all a tags in header 
  and then on hover
 */
-
+.navbar-links a {
+    color:#21201F;
+    background-attachment: #73593F;
+    font-size: 1.3rem;
+    padding:1rem 1.25rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
 
 
 

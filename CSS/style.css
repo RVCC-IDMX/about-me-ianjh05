@@ -33,6 +33,11 @@ header {
     text-align:center;
 }
 
+#hobbies li {
+    list-style: none;
+    text-align: center;
+}
+
 /*gallery section*/
 #gallery {
     border: 2px solid #73593F;
