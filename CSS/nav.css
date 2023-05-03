@@ -20,7 +20,14 @@ main {
 }
 
 /* navbar */
-
+.navbar {
+    background-color:#73593F;
+    color: #21201F;
+    display: flex;
+    flex-direction: column;
+    font-size:1rem;
+    margin-bottom: 1rem;
+}
 
 
 /* logo */
