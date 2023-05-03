@@ -73,6 +73,11 @@ header {
     border:2px solid;
 }
 
+/*contact form*/
+#formElements {
+    display:grid;
+}
+
 /*footer*/
 #footer {
     text-align:center;

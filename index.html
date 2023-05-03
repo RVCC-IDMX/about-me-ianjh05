@@ -144,13 +144,71 @@
             </div>
         </article>
 
+        <section id="video">
+            <h2>A Short Video</h2>
+            <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/DpsC2vElyec"
+                title="DB740D17 E78F 4CFE 86D8 5443A5B947A1" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me!</h2>
+            <form id="contactForm" name="contactForm" method="post" data-netlify="true">
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <div id="formElements">
+                        <label for="name">Name (required)</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email (required)</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="phone">Phone (optional)</label>
+                        <input type="tel" id="phone" name="phone">
+
+                        <label for="phonetype">Phone Type (optional)</label>
+                        <select id="phonetype" name="phonetype">
+                            <option value=""selected>Select phone type</option>
+                            <option value="Mobile">Mobile</option>
+                            <option value="Work">Work</option>
+                            <option value="Home">Home</option>
+                        </select>
+
+                        <label for="message">Message (optional)</label>
+                        <textarea id="message" name="message" rows="8"></textarea>
+
+                        <fieldset>
+                            <legend>Would you like a reply?</legend>
+                            <ul>
+                                <li>
+                                    <input type="radio" id="message-yes" name="reply" value="Yes reply">
+                                    <label for="message-yes">Yes, please!</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="message-no" name="reply" checked value="No thanks">
+                                    <label for="message-no">No, thanks.</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+
+                        <button type="submit">Send</button>
+                    </div>
+
+                </fieldset>
+
+            </form>
+        </section>
+
 
     </main>
 
-    <footer>
-        ©2023 Ian Hernandez
-    </footer>
-
+    <section id="footer">
+        <footer>
+            ©2023 Ian Hernandez
+        </footer>
+    </section>
 
 </body>
 
