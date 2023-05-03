@@ -36,32 +36,22 @@ header {
 /*gallery section*/
 #gallery {
     border: 2px solid;
-    display:grid;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
-#gallery hr {
-    display:none;
-}
-
-#gallery h2 {
-    grid-column: 1/4;
+    margin-bottom:2rem;
 }
 
 #gallery img {
-    max-width: 100%;
+    max-width: 85%;
 }
 
 #gallery figure {
     text-align: center;
-    display:block;
-    grid-template-columns: 2fr 1fr;
 }
 
 #gallery figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left:1rem;
 }
 
 
@@ -75,5 +65,18 @@ header {
     max-width:100rem;
     margin: 0 auto;
     columns:20rem;
+}
+
+@media screen and (min-width: 60em) {
+figure {
+    display:grid;
+    grid-template-columns:2fr 1fr;
+}
+figcaption {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2rem;
+}
 
 }
