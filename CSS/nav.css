@@ -31,7 +31,17 @@ main {
 
 
 /* logo */
-
+.logo {
+    display:flex;
+    align-items:center;
+}
+.logo img {
+    height:6vw;
+    width:6vw;
+}
+.logo h1 {
+    font-size:1.2em;
+}
 
 
 /* navigation list */
