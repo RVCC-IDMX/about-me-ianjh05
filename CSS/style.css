@@ -1,11 +1,16 @@
 body {
-    font-family:"Inconsolata";
+    font-family: "Inconsolata";
     background-color: #21201F;
     color: #73593F
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family:"Raleway";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway";
     text-align: center;
 }
 
@@ -17,7 +22,6 @@ header {
 #hero {
     text-align: center;
     border: 2px solid
-
 }
 
 #hero img {
@@ -26,22 +30,23 @@ header {
 
 /*bio section*/
 #bio {
-    text-align:center;
+    text-align: center;
 }
 
 #hobbies {
-    text-align:center;
+    text-align: center;
 }
 
 #hobbies li {
     list-style: none;
     text-align: center;
+    margin-right: 2rem;
 }
 
 /*gallery section*/
 #gallery {
     border: 2px solid #73593F;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
 }
 
 #gallery img {
@@ -56,44 +61,49 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left:1rem;
+    margin-left: 1rem;
 }
+
+#gallery hr {
+    border: 2px solid #73593F;
+}
+
 
 
 /*lit section*/
 #lit {
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
 
 #lit div {
-    padding:1rem;
-    max-width:100rem;
+    padding: 1rem;
+    max-width: 100rem;
     margin: 0 auto;
-    columns:20rem;
+    columns: 20rem;
 }
 
 /*video section*/
 #video {
-    text-align:center;
-    border:2px solid;
+    text-align: center;
+    border: 2px solid;
 }
 
 /*contact form*/
 #formElements {
-    display:grid;
-    row-gap:.5em;
+    display: grid;
+    row-gap: .5em;
 }
 
 #contact {
-    padding:1rem;
-    max-width:600px;
-    margin:2rem auto;
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
 }
 
 fieldset {
-    border:2px solid #73593F;
-    margin-top:1em;
-    margin-bottom:1em;
+    border: 2px solid #73593F;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 legend {
@@ -101,71 +111,79 @@ legend {
     color: #21201F
 }
 
-#contact input, #contact textarea, #contact select, #contact button {
-    padding:.5em;
-    font-size:1rem;
+#contact input,
+#contact textarea,
+#contact select,
+#contact button {
+    padding: .5em;
+    font-size: 1rem;
 }
 
 #contact ul {
-    list-style:none;
-    padding:0px;
+    list-style: none;
+    padding: 0px;
 }
 
 #contact li {
-    margin:1rem;
+    margin: 1rem;
 }
 
 #contact button {
-    background-color:#73593F;
-    color:#21201F;
+    background-color: #73593F;
+    color: #21201F;
     border: 1px solid#73593F;
-    max-width:400px;
-    width:50%;
-    justify-self:center;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
 }
 
 /*footer*/
 #footer {
-    text-align:center;
+    text-align: center;
 }
 
 
 
 /*tablet size*/
 @media screen and (min-width:60em) {
-figure {
-    display:grid;
-    grid-template-columns:2fr 1fr;
-}
-figcaption {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:2rem;
-}
-figure img {
-    width:100%;
-}
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
 
-#lit div {
-    max-width:100%;
-    columns:20rem;
-}
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    #lit div {
+        max-width: 100%;
+        columns: 20rem;
+    }
 }
 
 /*large screen size*/
 @media screen and (min-width:100em) {
     #gallery {
-        display:grid;
-        grid-template-columns:1fr 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
+
     hr {
-        display:none;
+        display: none;
     }
+
     #gallery h2 {
-        grid-column:1/-1;
+        grid-column: 1/-1;
     }
+
     figure {
-        display:block;
+        display: block;
     }
 }
