@@ -67,6 +67,19 @@ header {
     columns:20rem;
 }
 
+/*video section*/
+#video {
+    text-align:center;
+    border:2px solid;
+}
+
+/*footer*/
+#footer {
+    text-align:center;
+}
+
+
+
 /*tablet size*/
 @media screen and (min-width:60em) {
 figure {
