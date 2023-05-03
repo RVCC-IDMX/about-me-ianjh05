@@ -21,7 +21,7 @@ main {
 
 /* navbar */
 .navbar {
-    background-color: #73593F;
+    background-color: #BAB5AF;
     color: #21201F;
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ main {
 */
 .navbar-links a {
     color: #21201F;
-    background-color: #73593F;
+    background-color: #BAB5AF;
     font-size: 1.3rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
@@ -70,7 +70,7 @@ main {
 
 .navbar-links a:hover,
 .navbar-links a:focus {
-    color: #73593F;
+    color: #BAB5AF;
     background-color: #21201F;
     border-radius: 10px;
     outline: none;

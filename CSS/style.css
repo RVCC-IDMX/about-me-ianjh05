@@ -1,7 +1,7 @@
 body {
     font-family: "Inconsolata";
     background-color: #21201F;
-    color: #73593F
+    color: #BAB5AF
 }
 
 h1,
@@ -45,7 +45,7 @@ header {
 
 /*gallery section*/
 #gallery {
-    border: 2px solid #73593F;
+    border: 2px solid #BAB5AF;
     margin-bottom: 2rem;
 }
 
@@ -65,7 +65,7 @@ header {
 }
 
 #gallery hr {
-    border: 2px solid #73593F;
+    border: 2px solid #BAB5AF;
 }
 
 
@@ -101,13 +101,13 @@ header {
 }
 
 fieldset {
-    border: 2px solid #73593F;
+    border: 2px solid #BAB5AF;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
 legend {
-    background-color: #73593F;
+    background-color: #BAB5AF;
     color: #21201F
 }
 
@@ -129,9 +129,9 @@ legend {
 }
 
 #contact button {
-    background-color: #73593F;
+    background-color: #BAB5AF;
     color: #21201F;
-    border: 1px solid#73593F;
+    border: 1px solid#BAB5AF;
     max-width: 400px;
     width: 50%;
     justify-self: center;
