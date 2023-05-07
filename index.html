@@ -19,7 +19,7 @@
         <!--header shows logo and page title (dont confuse with the head tag)-->
         <nav class="navbar">
             <div class="logo">
-                <img src="/img/logo-96X96.svg" alt="blue bird">
+                <img src="/img/favicon-96x96.svg" alt="My initials as a logo">
                 <h1>Web Dev I</h1>
             </div>
             <div class="navbar-links">
@@ -56,6 +56,17 @@
                 <p>A future computer programmer</p>
                 <p>A future pro powerlifter</p>
                 <a href="https://www.instagram.com/ianskilos/">Powerlifting Instagram</a>
+                   <p> 
+                    I am a driven individual with a passion for both technology and fitness. From a young age, I was fascinated by computers and the power they held to make the world a better place. This fascination led me to pursue a career in computer programming, with the goal of using technology to solve real-world problems and improve people's lives.
+                    
+                    As I pursue my education and gain experience in the field, I have also discovered a love for powerlifting. The combination of mental and physical strength required to excel in this sport spoke to me on a deep level, and I found that the discipline and dedication required to be a successful powerlifter translated well to my work in computer programming.
+                    
+                    Now, I strive to balance my career as a computer programmer with my passion for powerlifting. I spend my free time training and pushing myself to become a stronger, more skilled athlete, while also continuing to learn and grow in my profession.
+                    
+                    Looking to the future, I have big aspirations for both my career and my athletic pursuits. I hope to become a top-level powerlifter, competing on a national or even international level. At the same time, I want to continue to advance in my career as a computer programmer, taking on challenging projects and using my skills to make a positive impact on the world.
+                    
+                    Overall, I am a determined and dedicated individual who is driven to excel in both my personal and professional pursuits. With a combination of passion, hard work, and a commitment to continuous improvement, I am poised for success as both a computer programmer and a pro powerlifter.
+                    </p>
             </div>
         </section>
 
@@ -91,69 +102,58 @@
         </section>
 
         <article id=lit>
-            <h2>An Exerpt from The Picture of Dorian Gray</h2>
+            <h2>How to Embed a static Google Map using iFrame</h2>
             <div>
-                <p>He sighed, and took up the volume again, and tried to forget. He read of the swallows that fly in and
-                    out of the little cafe at Smyrna where the Hadjis sit counting their amber beads and the turbaned
-                    merchants smoke their long tasselled pipes and talk gravely to each other; he read of the Obelisk in
-                    the Place de la Concorde that weeps tears of granite in its lonely sunless exile and longs to be
-                    back by the hot, lotus-covered Nile, where there are Sphinxes, and rose-red ibises, and white
-                    vultures with gilded claws, and crocodiles with small beryl eyes that crawl over the green steaming
-                    mud; he began to brood over those verses which, drawing music from kiss-stained marble, tell of that
-                    curious statue that Gautier compares to a contralto voice, the "monstre charmant" that couches in
-                    the porphyry-room of the Louvre. But after a time the book fell from his hand. He grew nervous, and
-                    a horrible fit of terror came over him. What if Alan Campbell should be out of England? Days would
-                    elapse before he could come back. Perhaps he might refuse to come. What could he do then? Every
-                    moment was of vital importance.</p>
+                
+                    <p>Google Maps is a popular tool for displaying locations and directions on a website. Embedding a static Google Map using an iFrame is a simple and effective way to display a map on a website without requiring the user to interact with the map.
+                    
+                    An iFrame is an HTML tag that allows you to embed content from another website into your own website. Using an iFrame to embed a static Google Map on your website is easy and only requires a few simple steps.</p>
+                    
+                    <h4>Step 1: Generate the Static Map URL</h4>
+                    
+                    <P>The first step to embedding a static Google Map using an iFrame is to generate the static map URL. To do this, go to the Google Maps website and navigate to the location you want to display on your website. Once you have found the location, click on the “Share” button located at the bottom of the screen.
+                    
+                    A pop-up window will appear with two options: “Share Link” and “Embed Map”. Select “Embed Map” and you will be provided with an HTML code to embed the map on your website. However, to generate the static map URL, you will need to modify this HTML code.
+                    
+                    In the HTML code, you will see a URL that begins with “https://www.google.com/maps/embed/v1/”. Modify this URL by adding the “/map?” parameter at the end of the URL. This will generate the static map URL that you will use to embed the map on your website.</P>
+                    
+                    <h4>Step 2: Create the iFrame</h4>
+                    
+                    <P>The next step is to create the iFrame that will display the static Google Map on your website. To do this, add the following code to your website:
+                    
+                    Replace “YOUR_MAP_ID” with the static map URL that you generated in Step 1. You can also adjust the width and height of the iFrame to fit your websites design.</P>
+                    
+                    <h4>Step 3: Customize the Map</h4>
+                    
+                    <p>Once you have added the iFrame to your website, you can customize the map by adding markers, changing the zoom level, and adjusting the map type. To do this, modify the static map URL by adding parameters to the end of the URL.
+                    
+                    For example, to add a marker to the map, add the following parameter to the URL: “&markers=color:red%7Clabel:A%7Clatitude,longitude”. Replace “latitude” and “longitude” with the coordinates of the location you want to mark on the map.</p>
+                    
+                    <h4>Step 4: Add Accessibility Features</h4>
+                    
+                   <p>Its important to ensure that your website is accessible to all users, including those with disabilities. When embedding a static Google Map using an iFrame, its important to add accessibility features such as alternative text and a title attribute to the iFrame.
+                    
+                    To add alternative text to the iFrame, add the “alt” attribute to the iFrame tag, like this:
+                    
+                    
+                    
+                    Replace “[Location Name]” with the name of the location displayed on the map.
+                    
+                    To add a title attribute to the iFrame, add the “title” attribute to the iFrame tag, like this:
+                    
+                    
+                    Replace “[Location Name]” with the name of the article:</p>
 
-                <p>They had been great friends once, five years before--almost inseparable, indeed. Then the intimacy
-                    had come suddenly to an end. When they met in society now, it was only Dorian Gray who smiled: Alan
-                    Campbell never did.</p>
+                    <h4>Step 5: Test the Map</h4>
+                    
+                    <p>After you have embedded the static Google Map on your website using an iFrame, its important to test the map to ensure that it is working properly. Check that the map is displaying the correct location, markers are placed correctly, and the map is accessible.
+                    
+                    You can also test the map on different devices and screen sizes to ensure that it is responsive and displays correctly on all devices.</p>
+                    
+                    <p>Embedding a static Google Map using an iFrame is a simple and effective way to display a map on a website without requiring the user to interact with the map. By following the steps outlined in this article, you can easily generate a static map URL, create an iFrame, customize the map, and add accessibility features.
+                    
+                    With the popularity of Google Maps, embedding a static map on your website can enhance the user experience and provide valuable information to visitors. By using an iFrame, you can easily embed a map on your website and customize it to fit your needs.</p>
 
-                <p>He was an extremely clever young man, though he had no real appreciation of the visible arts, and
-                    whatever little sense of the beauty of poetry he possessed he had gained entirely from Dorian. His
-                    dominant intellectual passion was for science. At Cambridge he had spent a great deal of his time
-                    working in the laboratory, and had taken a good class in the Natural Science Tripos of his year.
-                    Indeed, he was still devoted to the study of chemistry, and had a laboratory of his own in which he
-                    used to shut himself up all day long, greatly to the annoyance of his mother, who had set her heart
-                    on his standing for Parliament and had a vague idea that a chemist was a person who made up
-                    prescriptions. He was an excellent musician, however, as well, and played both the violin and the
-                    piano better than most amateurs. In fact, it was music that had first brought him and Dorian Gray
-                    together--music and that indefinable attraction that Dorian seemed to be able to exercise whenever
-                    he wished--and, indeed, exercised often without being conscious of it. They had met at Lady
-                    Berkshire's the night that Rubinstein played there, and after that used to be always seen together
-                    at the opera and wherever good music was going on. For eighteen months their intimacy lasted.
-                    Campbell was always either at Selby Royal or in Grosvenor Square. To him, as to many others, Dorian
-                    Gray was the type of everything that is wonderful and fascinating in life. Whether or not a quarrel
-                    had taken place between them no one ever knew. But suddenly people remarked that they scarcely spoke
-                    when they met and that Campbell seemed always to go away early from any party at which Dorian Gray
-                    was present. He had changed, too--was strangely melancholy at times, appeared almost to dislike
-                    hearing music, and would never himself play, giving as his excuse, when he was called upon, that he
-                    was so absorbed in science that he had no time left in which to practise. And this was certainly
-                    true. Every day he seemed to become more interested in biology, and his name appeared once or twice
-                    in some of the scientific reviews in connection with certain curious experiments.</p>
-
-                <p>This was the man Dorian Gray was waiting for. Every second he kept glancing at the clock. As the
-                    minutes went by he became horribly agitated. At last he got up and began to pace up and down the
-                    room, looking like a beautiful caged thing. He took long stealthy strides. His hands were curiously
-                    cold.</p>
-
-                <p>The suspense became unbearable. Time seemed to him to be crawling with feet of lead, while he by
-                    monstrous winds was being swept towards the jagged edge of some black cleft of precipice. He knew
-                    what was waiting for him there; saw it, indeed, and, shuddering, crushed with dank hands his burning
-                    lids as though he would have robbed the very brain of sight and driven the eyeballs back into their
-                    cave. It was useless. The brain had its own food on which it battened, and the imagination, made
-                    grotesque by terror, twisted and distorted as a living thing by pain, danced like some foul puppet
-                    on a stand and grinned through moving masks. Then, suddenly, time stopped for him. Yes: that blind,
-                    slow-breathing thing crawled no more, and horrible thoughts, time being dead, raced nimbly on in
-                    front, and dragged a hideous future from its grave, and showed it to him. He stared at it. Its very
-                    horror made him stone.</p>
-
-                <p>At last the door opened and his servant entered. He turned glazed eyes upon him.</p>
-
-                <p>"Mr. Campbell, sir," said the man.</p>
-
-                <p>A sigh of relief broke from his parched lips, and the colour came back to his cheeks.</p>
             </div>
         </article>
 
